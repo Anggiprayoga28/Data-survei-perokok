@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survei perokok</title>
+    <link rel="icon" type="image/png" href="asset/img/f5f7004440d03c2131c442af009c9b8d.jpg">
+    <meta name="description" content="Halaman web tentang form pengisian data perokok">
+</head>
+<body>
+    <h1>Data Survei perokok</h1>
+    <div>
+      <form>
+        <div>
+            <label>Nama</label>
+            <input type="text" name="Nama" id="Nama"><br>
+        </div>
+        <div>
+            <label>Umur</label>
+            <input type="number" name="Umur" id="Umur"><br>
+        </div>
+        <div>
+            <label>Jenis kelamin</label><br>
+            <input type="radio" name="Jenis kelamin" id="Laki-Laki"><label for="L">Laki-Laki</label><br>
+            <input type="radio" name="Jenis kelamin" id="Perempuan"><label for="P">Peremuan</label><br>
+        </div>
+        <br>
+        <hr>
+        <div>
+        <br>
+            <label for="Apakah anda seorang perokok">Apakah anda seorang perokok</label><br>
+            <select name="lang-drop" id="Apakah anda seorang perokok">
+                <option value="" disabled selected>--Pilihan--</option>
+                <option value="Iya">Iya</option>
+                <option value="Tidak">Tidak</option>
+            </select>
+        </div>
+          <div>
+        <br>
+            <label for="Jenis rokok">Jenis rokok</label><br>
+            <select name="lang-drop" id="Jenis rokok">
+                <option value="" disabled selected>--Pilihan--</option>
+                <option value="Elektrik">elektrik</option>
+                <option value="Non elektrik">non elektrik</option>
+                <option value="Tidak ada">Tidak ada</option>
+            </select>
+        </div>
+        <br>
+            <label>Brand rokok non elektrik yang di gunakan</label><br>
+            <input type="checkbox" name="lang" id="Marlboro"><label for="Marlboro">Marlboro</label>
+            <input type="checkbox" name="lang" id="Kapal Sakti"><label for="Kapal Sakti">Kapal Sakti</label>
+            <input type="checkbox" name="lang" id="Magnum"><label for="Magnum">Magnum</label><br>
+            <input type="checkbox" name="lang" id="Dunhill"><label for="Dunhill">Dunhill</label>
+            <input type="checkbox" name="lang" id="LA"><label for="LA">LA</label>
+            <input type="checkbox" name="lang" id="Win"><label for="Win">Win</label>
+            <input type="checkbox" name="lang" id="ESSE"><label for="ESSE">ESSE<label>
+            <input type="checkbox" name="lang" id="Djanda"><label for="Djanda">Djanda<label><br>
+            <input type="checkbox" name="lang" id="Sampoerna"><label for="Sampoerna">Sampoerna<label>
+            <input type="checkbox" name="lang" id="Djarum"><label for="Djarum">Djarum<label>
+            <input type="checkbox" name="lang" id="Surya"><label for="Surya">Surya</label>
+            <input type="checkbox" name="lang" id="Juara"><label for="Juara">Juara</label>
+        <br>
+        <br>
+        <div>
+            <label>Brand rokok elektrik ( Di tulis jika menggunakan rokok elektrik )</label><br>
+            <textarea name="Brand" id="Branda" rows="5" cols="55" placeholder="Optional"></textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+        <hr>
+        </div>
+    </form>
+
+    </div>
+       <div>
+        <button><a href="tabel.html" target="_blank">Melihat tabel hasil survei</a></button>
+    </div>
+</body>
+</body>
+</html>
